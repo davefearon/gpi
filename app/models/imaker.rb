@@ -261,7 +261,7 @@ class Imaker
     gc = Magick::Draw.new
     # gc.line(0,0,@width.to_i,@height.to_i)
     # gc.line(@width.to_i,0,0,@height.to_i)
-    gc.line(-1,-1,-1,-1)
+    # gc.line(-1,-1,-1,-1)
 
     gc.font_family = 'helvetica'
     gc.pointsize = @textsize
@@ -273,7 +273,7 @@ class Imaker
       self.fill = Magick::Pixel.from_color(c)
     }
 
-    gc.draw(theimage)
+    # gc.draw(theimage)
     # theimage.write('public/images/default' + @format)
 
     case @format
