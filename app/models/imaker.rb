@@ -55,14 +55,22 @@ class Imaker
       end
     end
 
+    puts @sizeloc
+
     if @sizeloc == 0
       # no need to do anything
+      @background = ""
+      @text = ""
     elsif @sizeloc == 1
       @background = @matches[0]
+      @text = ""
     elsif @sizeloc == 2
       @background = @matches[0]
       @text = @matches[1]
     end
+
+    puts @background
+    puts @text
 
     self.set_widthheight
     self.set_bgcolors
@@ -111,6 +119,7 @@ class Imaker
         @bg_b = arr[2]
       end
     else
+      @background = "#c8c8c8"
       @bg_r = 200
       @bg_g = 200
       @bg_b = 200
@@ -151,6 +160,7 @@ class Imaker
         @txt_b = arr[2]
       end
     else
+      @text = "#ffffff"
       @txt_r = 255
       @txt_g = 255
       @txt_b = 255

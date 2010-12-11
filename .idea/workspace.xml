@@ -44,37 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imaker.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="imaker.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/imaker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="270" column="31" selection-start="5386" selection-end="5386" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="56" selection-start="5006" selection-end="5006" vertical-scroll-proportion="0.45945945">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="57" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+            <state line="162" column="22" selection-start="3365" selection-end="3365" vertical-scroll-proportion="0.4871795">
               <folding />
             </state>
           </provider>
@@ -99,13 +72,13 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/imaker.rb" />
         <option value="$PROJECT_DIR$/app/views/shopify/credit.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/shopify_controller.rb" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/app/models/imaker.rb" />
       </list>
     </option>
   </component>
@@ -611,23 +584,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/imaker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="31" selection-start="5386" selection-end="5386" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/shopify_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="108" column="18" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/mt.png">
@@ -645,6 +604,20 @@
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="135" column="56" selection-start="5006" selection-end="5006" vertical-scroll-proportion="0.45945945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="200" selection-end="200" vertical-scroll-proportion="0.23076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/imaker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="22" selection-start="3365" selection-end="3365" vertical-scroll-proportion="0.4871795">
           <folding />
         </state>
       </provider>
