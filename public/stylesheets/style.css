@@ -1,0 +1,43 @@
+html, body { margin:0; padding:0; background:#000 url('../images/background.jpg') fixed no-repeat 50% 0; color:#fff; line-height:24px; font-size:16px; font-family:Helvetica, Verdana, Arial, sans-serif;}
+
+.main { margin:0 auto; position:relative; width:1000px; }
+
+.left { position:fixed; top:50px; font-size:12px; line-height:12px; display:block; height:100px; width:320px; background:#0099ff; }
+.left .title { font-size:56px; line-height:56px; position:absolute; bottom:10px; left:10px; display:inline-block; height:56px; }
+.left .tagline { position:absolute; top:10px; left:13px; font-size:16px; line-height:16px; display:inline-block; height:16px; }
+
+.content { float:right; width:640px; padding:20px 0 20px 40px; clear:both; }
+.content .section { margin:25px 0; }
+
+.content .how {  }
+.content .how span { color:#0099ff; }
+.content .sampleurl { padding:10px; border:1px dashed #0099ff; margin:10px 0; }
+
+.content .isthereoptions {  }
+.content .isthereoptions span { color:#0099ff; }
+.content .isthereoptions ul { padding:10px 25px; border:1px dashed #0099ff; margin:10px 0; list-style-type:square; color:#0099ff; }
+.content .isthereoptions ul li { color:#0099ff; }
+.content .isthereoptions ul li span { color:#ffffff; }
+
+.content .ortry {  }
+.content .ortry span { color:#0099ff; }
+.content .sampleuses { padding:10px; border:1px dashed #0099ff; margin:10px 0; display:inline-block; }
+
+.content img { float:left; margin:5px 0; }
+
+.content .ml { margin-left:5px; }
+.content .mr { margin-right:5px; }
+
+
+.footer { display:block; position:relative; float:right; width:620px; padding:15px 0 0 20px; text-align:right; font-size:12px; margin-bottom:20px; border-top:1px dashed #0099ff; margin-top:5px; }
+.footer a { color:#0099ff; text-decoration:none; }
+.footer a:hover { text-decoration:underline; color:#ffffff; }
+
+.footer .created { float:right; }
+.footer span { float: left; margin-top:15px; }
+.footer form { float:left; margin-left:5px; display:inline-block; }
+
+.footer .hosted { float:right; display:block; clear:both; }
+.footer .hosted span { float:left; margin-top:-2px; margin-right:5px; }
+.footer a.mediatemple { height:16px; float:left; }
+.footer a.mediatemple img { border:none; }
