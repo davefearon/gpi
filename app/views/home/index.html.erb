@@ -7,6 +7,31 @@
 
 <title>GottaPlace.it | A Placeholder Service</title>
 <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="all" />
+<script>
+findLocation();
+    function findLocation(){
+	if( navigator.geolocation )
+	{
+		navigator.geolocation.getCurrentPosition( successCallback, errorCallback );
+	}
+	else
+	{
+		// alert the user of no location
+	}
+}
+
+function successCallback( position )
+{
+	var lat = position.coords.latitude;
+	var lon = position.coords.longitude;
+	alert("latitude: " + lat + ", longitude: " + lon);
+}
+
+function errorCallback()
+{
+	//do something with erorr
+}
+</script>
 </head>
 <body>
 <div class="main">
@@ -94,18 +119,18 @@
 			</div>
 
 			<div class="sampleuses">
-				<img src="0099ff/black/620x100/This Text Is Black" />
-				<img src="0099ff/fff/265x50.gif/Hi Mom! <3" class="mr" />
-				<img src="white/0099ff/345x50.jpg" class="ml" />
-				<img src="181818/0099ff/433x270.jpeg/I'm a block" class="mr" />
-				<img src="black/0099ff/177x25.png" class="ml" />
-				<img src="green/fff/177x25.png" class="ml" />
-				<img src="cyan/red/177x25.png" class="ml" />
-				<img src="magenta/000/177x25.png" class="ml" />
-				<img src="yellow/000/177x25.png" class="ml" />
-				<img src="red/white/177x25.png" class="ml" />
-				<img src="blue/fff/177x25.png/RECTANGLE" class="ml" />
-				<img src="white/black/177x25.png" class="ml" />
+				<img src="/0099ff/black/620x100/This Text Is Black" />
+				<img src="/0099ff/fff/265x50.gif/Hi Mom! <3" class="mr" />
+				<img src="/white/0099ff/345x50.jpg" class="ml" />
+				<img src="/181818/0099ff/433x270.jpeg/I'm a block" class="mr" />
+				<img src="/black/0099ff/177x25.png" class="ml" />
+				<img src="/green/fff/177x25.png" class="ml" />
+				<img src="/cyan/red/177x25.png" class="ml" />
+				<img src="/magenta/000/177x25.png" class="ml" />
+				<img src="/yellow/000/177x25.png" class="ml" />
+				<img src="/red/white/177x25.png" class="ml" />
+				<img src="/blue/fff/177x25.png/RECTANGLE" class="ml" />
+				<img src="/white/black/177x25.png" class="ml" />
 			</div>
 		</div>
 
