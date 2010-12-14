@@ -4,6 +4,8 @@ Gottaplaceit::Application.routes.draw do
 
   root :to => 'home#index'
 
+  match 'home/set_layout' => 'home#set_layout'
+
   match 'shopify/credit' => 'shopify#credit'
   match 'shopify/reg' => 'shopify#reg'
 

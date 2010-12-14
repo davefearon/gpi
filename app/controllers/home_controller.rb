@@ -7,6 +7,11 @@ class HomeController < ApplicationController
       end
   end
 
+  def set_layout
+    session["layout"] = (params[:mobile] == 0) ? "application" : ""
+    redirect_to :action => "index"
+  end
+
   def image
     @img = Imaker.new()
     @img.input(params[:path])
