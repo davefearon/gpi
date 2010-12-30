@@ -9,8 +9,6 @@ Gottaplaceit::Application.routes.draw do
   match 'shopify/credit' => 'shopify#credit'
   match 'shopify/reg' => 'shopify#reg'
 
-  # match 'public/*' =>
-
   match '*path' => 'home#image'
 
   # The priority is based upon order of creation:
